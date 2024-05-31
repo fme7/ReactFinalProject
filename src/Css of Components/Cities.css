@@ -1,0 +1,26 @@
+div.city {
+  > div.aboutCity {
+    width: 230px;
+    height: 318px;
+    display: flex;
+    padding: 10px;
+    > img {
+      border-radius: 20px;
+      margin: 13px;
+    }
+  }
+}
+div.appCity {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+div.props {
+  position: relative;
+  bottom: 260px;
+  left: 40px;
+  > div.property {
+  }
+  > div.cityName {
+  }
+}

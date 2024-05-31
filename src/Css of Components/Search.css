@@ -8,18 +8,25 @@ div.searchline{
     bottom: -35px;
      right: 140px;
     font-size: small;
-    font-weight: thin;
+    padding-top: 6px;
+    padding-bottom: 4px;
 
     >div.keyword{
         flex: 1;
-        border-right: 1px solid white;
+        border-right: 1px solid rgb(167, 166, 166) ;
+        height: 60px;
+        margin-bottom: 10px;
     }
     >div.status{
         flex: 1;
-        border-right: 1px solid white;
+        border-right: 1px solid rgb(167, 166, 166) ;
+        height: 60px;
+        margin-bottom: 5px;
     }
     >div.type{
         flex: 1;
+        height: 60px;
+        margin-bottom: 10px;
     }
     >a.filterbtn{
         align-content: center;
@@ -29,7 +36,7 @@ div.searchline{
         padding: 0;
         width: 130px;
         height: 60px;
-        margin: 13px 13px 6px 6px;
+        margin: 10px 10px 6px 6px;
     }
     >a.searchbtn{
         align-content: center;
@@ -39,7 +46,7 @@ div.searchline{
         border-radius: 20px;
         width: 130px;
         height: 60px;
-        margin: 13px 13px 6px 6px;
+        margin: 10px 10px 6px 6px;
         padding: 0px;
         color: black;
     }
