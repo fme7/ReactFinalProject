@@ -1,6 +1,7 @@
 import "../Css of Components/Search.css";
 function Search() {
   return (
+    <div className="comm" >
     <div className="searchline" >
       <div className="keyword">
         <p className="upp">Keyword</p>
@@ -16,6 +17,7 @@ function Search() {
       </div>
       <a className="filterbtn"> <i class="fa-solid fa-sliders"></i> Filter</a>
       <a className="searchbtn">Search</a>
+    </div>
     </div>
   );
 }

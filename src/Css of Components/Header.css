@@ -7,20 +7,26 @@ a {
   font-weight: 500;
   line-height: 30.4px;
 }
-div {
+div.header {
   color: #f6f8fa;
+  position: relative;
   > img {
     width: 100%;
   }
-  > div.button {
+  div.btn {
+    width: 100%;
     position: absolute;
-    top: 400px;
-    right: 630px;
-    border: 1px solid #E7C873;
-    background-color: #E7C873;
-    padding: 15px;
-    color: black;
-    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    bottom: 155px;
+    div.button {
+      right: 600px;
+      border: 1px solid #e7c873;
+      background-color: #e7c873;
+      padding: 15px;
+      color: black;
+      border-radius: 10px;
+    }
   }
   > nav {
     width: 100%;
@@ -48,8 +54,6 @@ div {
         border: 1px solid white;
         border-radius: 150px;
         padding: 10px;
-        > i {
-        }
       }
       > a.add {
         border: 1px solid white;
@@ -63,8 +67,8 @@ div {
 div.center {
   position: absolute;
   top: 170px;
-  right: 557px;
-  > div.info {
+  width: 100%;
+  > div.info0 {
     display: flex;
     justify-content: center;
     gap: 5px;

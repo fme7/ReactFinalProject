@@ -2,7 +2,7 @@ import { image } from "../Images/Images";
 import "../Css of Components/Header.css";
 function Header() {
   return (
-    <div>
+    <div className="header">
       <nav>
         <a>
           <img className="logo" src={image.logo}></img>
@@ -40,7 +40,7 @@ function Header() {
       <img src={image.headerImage} alt="404"></img>
 
       <div className="center">
-        <div className="info">
+        <div className="info0">
           <p>5 Beds</p>
           <p>2 Baths</p>
           <p>180 sqft</p>
@@ -53,8 +53,10 @@ function Header() {
           <b>$250</b>/month
         </p>
       </div>
-      <div className="button">
-       <b> View Details</b> <i class="fa-solid fa-arrow-right"></i>
+        <div className="btn" >
+        <div className="button">
+          <b> View Details</b> <i class="fa-solid fa-arrow-right"></i>
+      </div>
       </div>
     </div>
   );

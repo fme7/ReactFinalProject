@@ -1,0 +1,23 @@
+div.appartments{div.uppinfo {
+  width: 100px;
+  font-size: 13px;
+  text-align: center;
+  > div.uppinfo1 {
+    background-color: #1f4b43;
+    color: white;
+    padding: 15px;
+    border-radius: 13px;
+  }
+  div.uppinfo2 {
+    background-color: #e7c873;
+    color: black;
+    padding: 15px;
+    border-radius: 13px;
+  }
+}}
+div.appartments{img{
+    width: 300px;
+    height: 300px;
+    padding: 40px;
+    border-radius: 20px;
+}}
