@@ -29,14 +29,24 @@ function Info() {
 
       <div className="searchline2">
         <div className="searchleft">
-        <h3>Sign in to streamline your search</h3>
-        <p>
-          Save properties, create alerts and keep track of the enquiries you
-          send to agents.
-        </p>
+          <h3>Sign in to streamline your search</h3>
+          <p>
+            Save properties, create alerts and keep track of the enquiries you
+            send to agents.
+          </p>
         </div>
         <div className="searchlinebtn">
           Sign in or create an account <i class="fa-solid fa-arrow-right"></i>
+        </div>
+      </div>
+      <div className="headapart">
+        <h1>Featured Properties</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div className="list">
+          <p className="speclist" >All Properties</p>
+          <p className="spec" > Villa</p>
+          <p className="spec" >Apartments</p>
+          <p className="spec">Office</p>
         </div>
       </div>
     </div>
