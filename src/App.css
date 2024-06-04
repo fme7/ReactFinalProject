@@ -41,6 +41,12 @@ div.line{
   >div.line1{
     display: flex;
     justify-content: center;
+    >uppinfo2{
+      background-color: #e7c873;
+      color: black;
+      padding: 12px;
+      border-radius: 13px;
+    }
   }
   >div.line2{
     display: flex;

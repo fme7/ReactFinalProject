@@ -6,6 +6,9 @@ a {
   padding: 15px;
   font-weight: 500;
   line-height: 30.4px;
+  >img{
+    position: relative;
+  }
 }
 div.header {
   color: #f6f8fa;

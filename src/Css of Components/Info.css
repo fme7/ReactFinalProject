@@ -11,6 +11,7 @@ div.searchline2 {
   display: flex;
   background-color: #1f4b43;
   color: black;
+  margin-bottom: 150px;
 }
 div.searchleft {
   padding: 70px;

@@ -8,6 +8,7 @@ function Apartments(props){
                 <div className="uppinfo2" >{uppinfo2}</div>
             </div>
             <img src={img}></img>
+            <div className="down" >
             <h5 className="text1" >{text1}</h5>
             <p className="text2" > <i class="fa-solid fa-location-dot"></i> {text2}</p>
             <div className="downinfo" >
@@ -16,6 +17,7 @@ function Apartments(props){
                 <span className="icon3" > <i class="fa-regular fa-window-restore"></i> {icon3}</span>
                 <p className="price" >{price}</p>
             </div> 
+            </div>
         </div>
     );
 }
